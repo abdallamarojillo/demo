@@ -1,0 +1,364 @@
+body{
+    background: silver;
+    color: #000305;
+    font-size: 87.5%; /*Best font size is 14px*/
+    font-family: Arial, 'lucida Sans Unicode';
+    line-height: 1.5;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+}
+a:link, a:visited{
+    color: #cf5c3f;
+}
+a:hover, a:active{
+    background-color: #cf5c3f;
+    color: #fff;
+}
+.body{
+    margin:  0 auto;
+    width: 85%;
+    clear: both;
+    
+}
+.mainheader img{
+    width: 30%;
+    height: auto;
+    margin: 2% 0;
+}
+.mainheader nav{
+    background-color: #666;
+    height: 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.mainheader nav ul{
+    list-style: none;
+    margin: 0 auto;
+}
+.mainheader nav ul li{
+    float: left;
+    display: inline;
+}
+
+
+.mainheader nav a:link, .mainheader nav a:visited{
+    color: #fff;
+    display: inline-block;
+    padding: 10px 25px;
+    height: 20px;
+}
+.mainheader nav a:hover, .mainheader nav a:active,
+.mainheader nav .active a:link, .mainheader nav .active a:visited
+{
+    background-color: orange;
+    text-shadow: none;
+}
+.mainheader nav ul li a{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    
+}
+.mainContent{
+    line-height: 25px;
+     border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}   
+.content{
+    width: 70%;
+    float: left;
+}
+.topcontent{
+    background-color: #fff;
+     border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 2px;
+}
+.topcontent h2{
+    text-align: center;
+    color: rgb(75,86,135);
+    font-weight: bold;
+    font-size: 20px;
+}
+.bottomcontent{
+   
+    background-color: #fff;
+     border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+     padding: 3% 5%;
+    margin-top: 2px;
+}
+
+h2{
+    color: red;
+}
+td{
+    color: green;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.input{
+    width: 300px;
+    margin:0 auto;
+    border-radius: 5px;
+    text-align: center;
+    font-family: britannic bold;
+    font-weight: bold;
+    color: green;
+    font-weight: bold;
+    height: 30px;
+    border-color: green;
+}
+#login_form{
+    float: right;
+}
+.input_login{
+    margin-top: 0%;
+    border-radius: 7px;
+    width: 200px;
+    height: 32px;
+}
+table{
+    background-color: rgb(127,131,125);
+    border-radius: 10px;
+    
+}
+table tr td{
+    border: 0px;
+    width: 240px;
+}
+option{
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+.post-info{
+    font-style: italic;
+    color: #999;
+    font-size: 90%;
+    text-align: center;
+}
+.top-sidebar{
+    width: 21%;
+    float: left;
+    background-color: #fff;
+     border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 2% 0 2% 3%;
+    padding: 2% 3%;
+}
+.top-sidebar article p{
+    text-align: center;
+    color: blue;
+    font-size: 150px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.mainfooter{
+    width: 100%;
+    height: 40px;
+    float: left;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #666;
+    margin-top: 2% 0;
+}
+button{
+    height: 50px;
+    text-align: center;
+    width: 680px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: blue;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: rgb(151,164,32);
+}
+button:hover{
+    background-color: rgb(57,144,14);
+}
+.subfooter{
+       width: 100%;
+    height: 40px;
+    float: left;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #412280;
+    opacity: 0.5;
+    margin: 0 auto;
+    text-align: center;
+}
+.subfooter li{
+   list-style: none;
+   display: inline-block;
+   
+   
+}
+.mainfooter p{
+    width: 92%;
+    margin: 10px auto;
+    color: #fff;
+}
+/*************STYLING THE PROFILE SECTION****************************/
+fieldset.info_fieldset{
+    border-color: rgb(128,128,128);
+    border-style: ridge;
+    border-width: 1px;
+    background-color: rgb(139,173,127);
+}
+fieldset.info_fieldset legend{
+    color: rgb(28,97,144);
+    font-weight: bold;
+}
+fieldset.info_fieldset p{
+    color: rgb(14,47,70);
+}
+.category{
+    color: rgb(51,87,203);
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+h4,h5{
+    font-size: 20px;
+    color: rgb(157,160,16);
+}
+.description{
+    font-style: italic;
+    margin-top: -30px;
+    color: rgb(37,163,49);
+    font-size: 80%;
+}
+.update{
+    
+    border-radius: 6px;
+    width: 250px;
+    margin-bottom: 20px;
+    height: 25px;
+    border-color: green;
+    color: rgb(64,156,52);
+    font-family: agency fb;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+/********MEDIA QUERIES*********************************************/
+@media only screen and (min-width:150px) and (max-width:680px){
+    .body{
+    width: 90%;
+    font-size: 95%
+    
+}
+.mainheader img{
+    width: 100%;
+}
+.mainheader nav{
+    height: 180px;
+}
+.mainheader nav ul{
+padding-left: 0;
+}
+.mainheader nav ul li{
+ width: 100%;
+ text-align: center;
+}
+.mainheader nav a:link, .mainheader nav a:visited{
+    padding: 10px 25px;
+    height: 20px;
+    display: block;
+}
+ 
+.content{
+    width: 100%;
+    float: left;
+    margin-top: 2%;
+}
+.topcontent{
+    padding: 3% 5%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+.bottomcontent{
+    padding: 3% 5%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+table{
+    width: 90%;
+}
+button{
+    width: 93%;
+}
+.input{
+    width: 92%;
+}
+.top-sidebar{
+    width: 94%;
+    margin: 0 0 2% 0%;
+    padding: 2% 3%;
+}
+.top-sidebar article p{
+    width: 80%;
+}
+}
+fieldset.cat_fieldset{
+    border-style: dashed;
+    border-width: 10px;
+}
+.category{
+    color: rgb(51,87,203);
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+.description{
+    font-style: italic;
+    margin-top: -30px;
+    color: rgb(37,163,49);
+    font-size: 94%;
+}
+.update{
+    border-radius: 6px;
+    width: 94%;
+    margin-bottom: 20px;
+    height: 40px;
+    border-color: green;
+    color: orange;
+    font-family: agency fb;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+@media only screen and (min-width:680px){
+    table{
+        width: 70%;
+    }
+button{
+    width: 93%;
+}
+
+.topcontent{
+    padding: 3% 5%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+.top-sidebar article p{
+    width: 80%;
+}
+.input{
+    width: 92%;
+}
+
+}
